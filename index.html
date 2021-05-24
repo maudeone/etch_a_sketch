@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="normalizeMin.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1 class="heading">Etch-A-Sketch</h1>
+    </header>
+    <main>
+        <div id='container'></div>
+        <div class="controls">
+            <div>
+                <div id='leftKnob' class='knob'></div>
+                <p>Grid Size:</p>
+                <button class="size small">Small</button>
+                <button class="size medium">Medium</button>
+                <button class="size big">Large</button>
+            </div>
+            <div>
+                <p>Mode:</p>
+                <button class="mode classic">Classic</button>
+                <button class="mode psychedelic">Psychedelic</button>
+            </div>
+            <div>
+                <button class="erase">Erase</button>
+            </div>
+            <div id='rightKnob' class='knob'></div>
+        </div>
+    </main>       
+    <footer class="footer"> 
+        Built by
+        <a class="footerLink" href="https://github.com/maudeone">maudeOne</a> | <a class="footerLink" href="https://github.com/maudeone/etch_a_sketch">Source</a>
+    </footer>
+    <script src="app.js"></script>
+    </script>
+</body>
+</html>
